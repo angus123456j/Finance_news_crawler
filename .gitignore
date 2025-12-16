@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# virtual environment
+venv/
+
+# python cache
+__pycache__/
+
+# generated outputs
+outputs/
+
+# macOS
+.DS_Store
