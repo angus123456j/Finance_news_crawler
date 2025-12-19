@@ -1,0 +1,19 @@
+# HTTP & scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=5.1.0
+
+# Database
+mysql-connector-python>=9.0.0
+pymysql>=1.1.0
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Browser automation (used for CLS)
+playwright>=1.42.0
+
+# LLM / rewriting
+openai>=1.30.0
+
+# Optional: JSON handling is built-in, argparse is built-in
