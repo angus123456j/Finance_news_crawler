@@ -26,9 +26,9 @@ This repository represents the **standalone version** developed prior to team in
 
 ## Project Structure
 finance_crawler/
-├── crawl.py # Entry point for date-based batch crawling
-├── db.py # Database connection & insert/query helpers
-├── rewrite.py # LLM-based Chinese → English rewriting
+|-- crawl.py # Entry point for date-based batch crawling
+|-- db.py # Database connection & insert/query helpers
+|-- rewrite.py # LLM-based Chinese → English rewriting
 ├── prompt_builder.py # Prompt construction for rewriting
 ├── generate_prompt.py # Utilities for prompt generation
 ├── outputs/
@@ -36,6 +36,7 @@ finance_crawler/
 ├── .env # Environment variables (DB credentials, API keys)
 ├── README.md
 └── requirements.txt
+
 
 
 ---
