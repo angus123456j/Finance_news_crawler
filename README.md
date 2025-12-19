@@ -25,7 +25,8 @@ This repository represents the **standalone version** developed prior to team in
 ---
 
 ## Project Structure
-finance_crawler/
+
+- finance_crawler/
     - crawl.py # Entry point for date-based batch crawling
     - db.py # Database connection & insert/query helpers
     - rewrite.py # LLM-based Chinese → English rewriting
