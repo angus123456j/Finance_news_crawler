@@ -1,3 +1,4 @@
+# function that gives the ai_api a strucually sound construct promptbased of requirmenets, style and article specific content suc has its main body and title
 def build_rewrite_prompt(title: str, content: str) -> str:
     return f"""
 You are an English-language financial journalist.
@@ -32,6 +33,8 @@ Rules:
 -------------------------------
 """
 
+# saves the prompt 
+# early development/debuggin phase function, not used anymore
 def save_prompt(prompt: str, filename: str = "rewrite_prompt.txt"):
     with open(filename, "w", encoding="utf-8") as f:
         f.write(prompt)

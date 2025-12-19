@@ -1,3 +1,4 @@
+# imports two functions from prompt_builder.py
 from prompt_builder import build_rewrite_prompt, save_prompt
 
 # Load Chinese text from file
@@ -12,6 +13,6 @@ content = parts[1].strip()
 
 # Build and save prompt
 prompt = build_rewrite_prompt(title, content)
-save_prompt(prompt, filename="outputs/rewrite_prompt.txt")
+#save_prompt(prompt, filename="outputs/rewrite_prompt.txt")
 
 print("Rewrite prompt generated.")
