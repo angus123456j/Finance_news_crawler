@@ -32,7 +32,7 @@ finance_crawler/
 ├── prompt_builder.py # Prompt construction for rewriting
 ├── generate_prompt.py # Utilities for prompt generation
 ├── outputs/
-│ └── article_zh.txt # Optional local output for debugging
+├── article_zh.txt # Optional local output for debugging
 ├── .env # Environment variables (DB credentials, API keys)
 ├── README.md
 └── requirements.txt
