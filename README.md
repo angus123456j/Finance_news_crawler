@@ -84,17 +84,4 @@ This avoids unnecessary requests and guarantees correctness.
 
 ---
 
-## How Date-Based Crawling Works
-
-The crawler is designed to be **efficient and deterministic**:
-
-- Articles are fetched page by page (newest → oldest)
-- For each article:
-  - `publish_date > target_date` → skip
-  - `publish_date == target_date` → crawl & save
-  - `publish_date < target_date` → stop crawling entirely
-
-This avoids unnecessary requests and guarantees correctness.
-
----
 
